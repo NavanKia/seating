@@ -1,0 +1,77 @@
+@font-face {
+	font-display: auto;
+	font-family: "Lato" sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	src: url("/fonts/Lato-Thin.ttf");
+}
+
+@font-face {
+	font-display: auto;
+	font-family: "Lato" sans-serif;
+	font-style: italic;
+	font-weight: 100;
+	src: url("/fonts/Lato-ThinItalic.ttf");
+}
+
+@font-face {
+	font-display: auto;
+	font-family: "Lato" sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+	font-display: auto;
+	font-family: "Lato" sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	src: url("/fonts/Lato-Italic.ttf");
+}
+
+@font-face {
+	font-display: auto;
+	font-family: "Lato" sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	src: url("/fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+	font-display: auto;
+	font-family: "Lato" sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	src: url("/fonts/Lato-BoldItalic.ttf");
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Herr Von Muellerhoff";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/HerrVonMuellerhoff-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Alice";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/Alice-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-display: swap;
+	font-family: "Liana";
+	font-style: normal;
+	font-weight: 400;
+	src: url("/fonts/Liana-Regular") format("truetype");
+}
+
+* {
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
