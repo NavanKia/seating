@@ -9,10 +9,17 @@
 	}
 }
 
+body {
+	background-color: #f4eee6;
+}
+
 button {
 	cursor: pointer;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
 	background-color: #ffffff;
 }

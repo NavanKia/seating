@@ -7,6 +7,10 @@ export const tables: Table[] = [
 		number: 2,
 		guests: ["John Smith", "Jane Smith"],
 	},
+	{
+		number: 3,
+		guests: ["John Smith", "Jane Smith"],
+	},
 ];
 
 export type Table = {
