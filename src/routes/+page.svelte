@@ -57,6 +57,7 @@
 
 	.tables {
 		width: 100%;
+		max-width: 980px;
 		margin-top: 1.5rem;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -144,6 +145,10 @@
 		font-size: 3.5rem;
 		font-weight: 700;
 		margin-top: 2rem;
+
+		@media screen and (max-width: 560px) {
+			font-size: 2.75rem;
+		}
 	}
 
 	.date {
