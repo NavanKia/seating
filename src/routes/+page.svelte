@@ -10,8 +10,13 @@
 		const q = query.toLowerCase();
 
 		return tables.filter((t): boolean => {
-			return !!t.guests.find((g) => g.toLowerCase().includes(q));
+			return !!t.guests.find(isMatchingGuest);
 		});
+	}
+
+	function isMatchingGuest(guest: string): boolean {
+		if (!query) return false;
+		return guest.toLowerCase().includes(query.toLowerCase());
 	}
 </script>
 
@@ -46,7 +51,7 @@
 
 		<ul>
 			{#each t.guests as g (g)}
-				<li>{g}</li>
+				<li class={isMatchingGuest(g) ? "highlight" : ""}>{g}</li>
 			{/each}
 		</ul>
 	</div>
@@ -96,6 +101,10 @@
 					font-size: 1rem;
 					padding: 0.35rem 0;
 					border-top: 1px dashed app.$gold-light;
+
+					&.highlight {
+						color: app.$text-theme;
+					}
 
 					&:first-of-type {
 						border-top: none;

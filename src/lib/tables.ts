@@ -41,7 +41,7 @@ export const tables: Table[] = [
 			"Megan Rhind",
 			"David Rhind",
 			"David Hubbell",
-			"Guest (David Hubbell)",
+			"Hali Larsen",
 		],
 	},
 	{
@@ -55,6 +55,8 @@ export const tables: Table[] = [
 			"Gil Segev",
 			"Ivy Liang",
 			"Karl Shao",
+			"Jason Jelinek",
+			"Cara Jelinek",
 		],
 	},
 	{
